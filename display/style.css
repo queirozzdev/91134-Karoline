@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+    margin: 0;
+}                       
+
+.conteiner{
+    width: 600px;
+    height: 400px;
+    border: 2px solid royalblue;
+    display: flex;
+    /*Alinhamento Vertical*/
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.item{
+    display: flex;
+    background-color: greenyellow;
+    width: 75px;
+    height: 75px;
+    border: 2px solid green;
+    justify-content: center;
+    align-items: center;
+}
