@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif; 
+    background-color: #e6e1ba; 
+}
+
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border: 2px solid #333; 
+    border-radius: 8px; 
+    background-color: rgb(247, 239, 168); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
+h1 {
+    text-align: center;
+    padding: 115px;
+    margin-top: 150px;
+    display: inline;
+    margin-bottom: 20px;
+    font-size: 22pt;
+    color: #333;
+    font-family: "Boldonse", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+    background-color: #f9f9f9;
+}
+
+input:focus {
+    outline: none;
+    border-color: #007BFF; 
+    background-color: #e6f0ff; 
+}
+
+
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #007BFF; 
+    color: #f8f4d3;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3; 
+}
