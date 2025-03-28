@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #e2c5c5;
+}
+
+header {
+    background-color: #28a745;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 18px;
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+    min-height: 80vh;
+}
+
+.textodomenu{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-weight: 22pt;
+}
+.menu {
+    width: 20%;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    font-family: Helvetica;
+}
+
+.conteudo {
+    width: 80%;
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+}
+
+h2{
+    color:rgb(83, 228, 233);
+}
+
+.paragrafo{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
