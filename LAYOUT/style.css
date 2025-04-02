@@ -12,38 +12,75 @@ body {
 }
 
 header {
-    background-color: #28a745;
+    background-color: #272727;
     color: white;
     text-align: center;
     padding: 15px;
     font-size: 18px;
-    margin: 10px;
 }
 
 .container {
     display: flex;
-    min-height: 80vh;
-}
-
-.menu {
-    width: 20%;
-    background-color: #333;
-    color: white;
+    justify-content: center;
+    min-height: 50vh;
     padding: 20px;
-    margin: 10px;
 }
 
 .conteudo {
-    width: 80%;
-    padding: 20px;
-    margin: 10px;
-    background-color: white;
+    padding: 30px;
+    font-size: 18px;
+    background-color: rgb(126, 117, 117);
+    text-align: center;
+    max-width: 800px;
+    color: white;
 }
 
+/* Área dos Quadros */
+.quadro-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap; /* Para melhorar responsividade */
+}
+
+.quadro {
+    background-color: #e0e0e0;
+    color: black;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.separador {
+    border-bottom: 1px solid #666;
+    margin: 15px 0;
+}
+
+.codigo-lista {
+    list-style: none;
+    padding-left: 0;
+}
+
+/* Estilização do Rodapé */
 footer {
     background-color: #222;
     color: white;
     text-align: center;
-    margin: 10px;
-    padding: 10px;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .quadro-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .conteudo {
+        padding: 20px;
+    }
 }
